@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            />
+        <item
+            android:title="Your Profile"
+            android:id="@+id/user_profile"
+            android:icon="@drawable/ic_user_profile"
+            />
+        <item
+            android:title="Add New Vocab"
+            android:id="@+id/add_vocab"
+            android:icon="@drawable/ic_add_post" />
+        <item
+            android:title="log out"
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_user_logout"/>
+    </group>
+
+</menu>

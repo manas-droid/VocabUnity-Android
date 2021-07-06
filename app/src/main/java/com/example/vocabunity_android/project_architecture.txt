@@ -1,0 +1,8 @@
+DTO == networking objects
+DTO is data transfer object
+Entity is for database
+
+eg: PostDTO - from the network
+    PostEntity - for room cache
+    Post - for domain
+
